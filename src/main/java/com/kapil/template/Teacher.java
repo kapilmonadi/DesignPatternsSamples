@@ -1,5 +1,5 @@
 package com.kapil.template;
 
-public interface Teacher {
+public sealed interface Teacher permits AbstractTeacher {
     void teach();
 }

@@ -1,4 +1,23 @@
 package com.kapil.template;
 
-public class TemporaryTeacher extends AbstractTeacher{
+public final class TemporaryTeacher extends AbstractTeacher{
+    @Override
+    protected void giveHomeWork() {
+
+    }
+
+    @Override
+    protected void giveClassWork() {
+
+    }
+
+    @Override
+    protected void teachSubject() {
+
+    }
+
+    @Override
+    protected void takeAttendance() {
+
+    }
 }
