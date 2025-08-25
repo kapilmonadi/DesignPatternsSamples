@@ -1,5 +1,8 @@
 package com.kapil.template;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public final class TemporaryTeacher extends AbstractTeacher{
     @Override
     protected void giveHomeWork() {
