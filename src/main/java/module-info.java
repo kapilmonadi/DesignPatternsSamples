@@ -1,10 +1,13 @@
 module com.kapil.designpatterns {
     requires spring.context;
+    requires spring.boot.autoconfigure;
+    requires spring.boot;
     // Export the main package that contains your sealed classes
     exports com.kapil.template;
     exports com.kapil.factory;
     exports com.kapil;
-    
+    exports com.kapil.enums;
+
     // If you have any other packages that need to be exported, add them here
     // exports com.kapil.constants;
     // exports com.kapil.controller;

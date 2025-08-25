@@ -1,6 +1,6 @@
 package com.kapil.factory;
 
-import com.kapil.TeacherType;
+import com.kapil.enums.TeacherType;
 import com.kapil.template.PermanentTeacher;
 import com.kapil.template.Teacher;
 import com.kapil.template.TemporaryTeacher;
